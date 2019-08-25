@@ -1,0 +1,23 @@
+[package]
+name = "gtk-rs-examples"
+version = "0.0.1"
+authors = ["The Gtk-rs Project Developers"]
+autobins = false
+
+[dependencies]
+glib-sys = "^0"
+gobject-sys = "^0"
+glib = "^0"
+gio = "^0"
+gdk = "^0"
+gdk-pixbuf = "^0"
+gtk = "^0"
+
+[features]
+#default = ["gtk_3_22_30", "futures", "subclassing"]
+subclassing = ["glib/subclassing"]
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+required-features = ["gtk/v3_16", "gio/v2_44", "subclassing"]
