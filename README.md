@@ -24,6 +24,6 @@ Launch it and you shall see a list of branches and a delete button.
 
 # Screenshot
 
-[screenshot](https://i.imgur.com/A4Frmww.png)
+![screenshot](https://i.imgur.com/A4Frmww.png)
 
 
